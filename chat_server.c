@@ -20,7 +20,7 @@ int user_numbers = 0;
 int client[MAX_USER];
 char* client_name[MAX_USER];
 pthread_mutex_t user_mutex = PTHREAD_MUTEX_INITIALIZER;
-
+//khai bao 
 bool join(bool isLogged, char *nickname, int socket)
 {
     if (isLogged)
